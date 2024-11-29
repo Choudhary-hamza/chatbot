@@ -1,0 +1,34 @@
+.mainFirst{
+  width: 100%;
+  height: 620px;
+}
+.card{
+  top: 250px;
+  border: 0px;
+  margin: auto;
+}
+.sign_in_form{
+  max-width: 660px;
+  border: 1px solid #b7b6b6;
+  min-height: 240px;
+  margin: 230px auto;
+  padding: 15px;
+  border-radius: 6px;
+}
+.sign_up_tag{
+  margin-top: 10px;
+}
+.name_row{
+  margin-bottom: 15px;
+}
+.check{
+  margin-bottom: 10px;
+}
+.sign_up_form{
+  max-width: 660px;
+  border: 1px solid #b7b6b6;
+  min-height: 240px;
+  margin: 130px auto;
+  padding: 15px;
+  border-radius: 6px;
+}
