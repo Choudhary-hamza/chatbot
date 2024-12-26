@@ -1,0 +1,51 @@
+.homeHeader {
+    position: fixed; 
+    top: 0;      
+    right: 0;        
+    width: 84.4%; 
+    height: 70px;     
+    z-index: 1000;
+  background-color: transparent !important; 
+  }
+  .header_search{
+      width: 60%;
+      height: 50px;
+  }
+  .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px; 
+    background-color: #fff;
+  }
+  .user-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .user-image img {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%; 
+    object-fit: cover;
+  }
+  .user-text {
+    margin-left: 10px;
+  }
+  
+  .user-name {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 100;
+    color: #000;
+  }
+  
+  .user-role {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+  }
+  .notification-icon img {
+    width: 20px; 
+    height: 20px;
+  }

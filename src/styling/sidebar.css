@@ -1,0 +1,14 @@
+.first_part{
+    margin-top: 100px;
+    background-color:#D4EBF8 !important     ;
+}
+.second_part{
+    margin-top: 270px;
+}
+
+.sidebarMain{
+    background-color:#D4EBF8 !important     ;
+}
+.active{
+    background-color: #62c5fe !important;
+}

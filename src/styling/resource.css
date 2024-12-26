@@ -1,0 +1,15 @@
+.resource_main{
+    width: 76.5%;
+    height: 85%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card_main{
+    max-width: 250px;
+    margin: 20px 50px;
+    top: 0;
+}

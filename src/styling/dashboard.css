@@ -1,0 +1,64 @@
+.dashboard-container {
+  top: 50px;
+    display: flex;
+    position: relative;
+    right: -120px;
+    flex-direction: column;
+    height: 100vh; 
+    width: 70vw;
+    margin: auto;
+     padding: 20px;
+}
+.loading{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.chat-area {
+  flex: 1;
+    overflow-y: auto;
+  padding: 10px;
+  position: relative;
+  
+}
+
+.chat-bubble {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.user-bubble {
+  background-color: #e0f7fa;
+  align-self: flex-end;
+     text-align: right;
+}
+
+.ai-bubble {
+  background-color: #f0f0f0;
+  align-self: flex-start;
+}
+.input-area{
+      display: flex;
+    gap: 10px;
+    position: relative;
+    bottom: 50px ;
+}
+
+.input-area input {
+  flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.input-area button{
+   padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #62c5fe;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
